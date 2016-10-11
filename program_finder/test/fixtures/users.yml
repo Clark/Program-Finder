@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  age: 1
+  married: false
+  income: 1
+  assets: 1
+  vetStatus: false
+  disabled: false
+  zipCode: MyString
+
+two:
+  age: 1
+  married: false
+  income: 1
+  assets: 1
+  vetStatus: false
+  disabled: false
+  zipCode: MyString

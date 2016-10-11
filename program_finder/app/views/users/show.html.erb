@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @user.age %>
+</p>
+
+<p>
+  <strong>Married:</strong>
+  <%= @user.married %>
+</p>
+
+<p>
+  <strong>Income:</strong>
+  <%= @user.income %>
+</p>
+
+<p>
+  <strong>Assets:</strong>
+  <%= @user.assets %>
+</p>
+
+<p>
+  <strong>Vetstatus:</strong>
+  <%= @user.vetStatus %>
+</p>
+
+<p>
+  <strong>Disabled:</strong>
+  <%= @user.disabled %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @user.zipCode %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
