@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :program_requirements
+  resources :programs
   resources :users
   get 'eligibility_determinations/assessment'
 
